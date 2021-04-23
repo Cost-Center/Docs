@@ -25,12 +25,28 @@ All the powerfull metrics above can breakdown at Country, Campaign, Ad Group, Ad
 - Clicks
 - Installs
 - Cost
+- IAP LTV Dx: (average) IAP revenue from a user calculated from the day they install the app (day 0) until day x.
 
 ### From Analytics Services (BigQuery for Firebase):
-- Active Users
-- Duration
-- Sessions
-- Retention Rate (RR)
+- Active Users: number of users that have at least one user_engagement or session_start during the selected period.
+- Duration: (average) total duration of all sessions of a user during the selected period.
+- Sessions: (average) number of sessions of a user during the selected period.
+- RR Dx (Retention Rate at Day x): total active users at day x divide by total installs at day 0
 
 ### From Attribution Services (Appsflyer):
 - Att-installs: number of installs recorded by attribution services
+
+### From Mediation Services (IronSource Mediation):
+- Ad LTV: (average) Ad revenue from a user calculated from the day they install the app (day 0) until day x.
+
+### Derived metrics:
+- CTR (clickthrough rate) = clicks / impressions
+- CVR (conversion rate) or CTI (click to install) = installs / clicks
+- oCVR (conversion rate from impressions to installs) or IPM (Installs per mille – Install per 1000 impressions) = CTR x CVR = installs / impressions
+- eCPM (effective cost per mile = effective cost per 1000 impressions) = cost / (1000 x impressions)
+- eCPC (effective cost per click) = cost / clicks
+- eCPI (effective cost per install) = cost / installs
+- Att-eCPI (eCPI fromn attribution services)= costs / att-installs
+- LTV: (average) lifetime value of a user, calculated by IAP LTV + Ad LTV
+- Ad ROAS: returns on ad spend excluding IAP revenue
+- ROAS: returns on ad spend including IAP and Ad revenue
