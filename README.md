@@ -1,6 +1,6 @@
 # Cost Center Documentation
 
-## What's Our Goal?
+## Our Goal
 
 Cost Center's goal is collecting all raw data from your Ad Networks, Attribution Service, Analytics Service, Monetization Service and combine it into one report. When combine the data, Cost Center generate most powerfull metrics that can give you enough information for making decistion like:
 * LTV Day x: Life time value at a day LTV D1, LTV D3, LTV D7, LTV D14, LTV 30, LTV 60
