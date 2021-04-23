@@ -10,10 +10,27 @@ Cost Center's goal is collecting all raw data from your Ad Networks, Attribution
 
 All the powerfull metrics above can breakdown at Country, Campaign, Ad Group, Ad, Source App level.
 
-## Report Explaination
+## Dimensions Mapping
 
-Your backup GitHub email address will be used as an additional destination for security-relevant account notifications and can also be used for password resets.
+| Data Source / Dimension | OS Version | Country | Campaign | Ad Group      | Ad Type | Ad            | Source App Id                    | Keyword              |
+|-------------------------|------------|---------|----------|---------------|---------|---------------|----------------------------------|----------------------|
+| Google Ads              |            | Country | Campaign | Ad Group      |         | Ad            | Group Placement                  |                      |
+| Facebook Ads            |            | Country | Campaign | Ad Set        |         | Ad            |                                  |                      |
+| Unity Ads               | OS Version | Country | Campaign | Creative Pack | Ad Type | Creative Pack | Source App Id                    |                      |
+| Apple Search Ads        |            | Country | Campaign | Ad Group      |         | Creative Set  | Search Term + Search Term Source | Keyword + Match Type |
 
-## Best Practices
+## Metrics
+### From Ad Networks:
+- Impressions
+- Clicks
+- Installs
+- Cost
 
-Your backup GitHub email address will be used as an additional destination for security-relevant account notifications and can also be used for password resets.
+### From Analytics Services (BigQuery for Firebase):
+- Active Users
+- Duration
+- Sessions
+- Retention Rate (RR)
+
+### From Attribution Services (Appsflyer):
+- Att-installs: number of installs recorded by attribution services
