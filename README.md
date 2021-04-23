@@ -12,12 +12,12 @@ All the powerfull metrics above can be broken down at Country, Campaign, Ad Grou
 
 ## Dimensions Mapping
 
-| Dimension / Data Source | OS Version | Country | Campaign | Ad Group      | Ad Type | Ad            | Source App Id                    | Keyword              |
-|-------------------------|------------|---------|----------|---------------|---------|---------------|----------------------------------|----------------------|
-| Google Ads              |            | Country | Campaign | Ad Group      | Ad Type | Ad            | Group Placement                  |                      |
-| Facebook Ads            |            | Country | Campaign | Ad Set        |         | Ad            |                                  |                      |
-| Unity Ads               | OS Version | Country | Campaign | Creative Pack | Ad Type | Creative Pack | Source App Id                    |                      |
-| Apple Search Ads        |            | Country | Campaign | Ad Group      |         | Creative Set  | Search Term + Search Term Source | Keyword + Match Type |
+| Dimension / Data Source | Country | Campaign | Ad Group      | Ad            | Source App Id                    | Keyword              | OS Version | Ad Type |
+|-------------------------|---------|----------|---------------|---------------|----------------------------------|----------------------|------------|---------|
+| Google Ads              | Country | Campaign | Ad Group      | Ad            | Group Placement                  |                      |            | Ad Type |
+| Facebook Ads            | Country | Campaign | Ad Set        | Ad            |                                  |                      |            |         |
+| Unity Ads               | Country | Campaign | Creative Pack | Creative Pack | Source App Id                    |                      | OS Version | Ad Type |
+| Apple Search Ads        | Country | Campaign | Ad Group      | Creative Set  | Search Term + Search Term Source | Keyword + Match Type |            |         |
 
 ## Metrics
 ### From Ad Networks
