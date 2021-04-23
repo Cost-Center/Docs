@@ -65,17 +65,17 @@ Users attributed using Analytics Service is reportable at campaign level.
 Due to to the way data is organised at some data sources, the report is having these limitations:
 - For Apple Search Ads: Ad dimension can't be selected with either Source App Id or Keyword dimension.
 - For Google Ads: 
---- Source App Id, Ad, Ad Type dimension can't be selected with Country dimension
---- Source App Id dimension can't be selected with Ad and Ad Type dimension.
+  - Source App Id, Ad, Ad Type dimension can't be selected with Country dimension
+  - Source App Id dimension can't be selected with Ad and Ad Type dimension.
 
 ## Data import
 - We use UTC timezone where possible, otherwise we use the timezone that data source provide.
 - Only data from connectors / customers linked to an app is updated regularly.
 - Data update interval:
---- Apple Search Ads: data of the last 3 days is updated every 2 hours.
---- Google Ads: yesterday's data is updated every 2 hours, data of day -3 since today is updated once a day.
---- Facebook Ads: today's and yesterday's data is updated every 2 hours, data of day -3 since today is updated once a day.
---- Unity Ads: today's and yesterday's data is updated every 2 hours, data of day -3 since today is updated once a day.
---- BigQuery: yesterday's data is updated once a day from 6pm to 8pm (UTC) data of day -3 since today is updated once a day from 6pm to 6:30pm.
---- Appsflyer: data of the last 3 days is updated once a day at 6pm (UTC).
---- IronSource Mediation: data of yesterday and day -3 since today are updated once a day at 3pm (UTC).
+  - Apple Search Ads: data of the last 3 days is updated every 2 hours.
+  - Google Ads: yesterday's data is updated every 2 hours, data of day -3 since today is updated once a day.
+  - Facebook Ads: today's and yesterday's data is updated every 2 hours, data of day -3 since today is updated once a day.
+  - Unity Ads: today's and yesterday's data is updated every 2 hours, data of day -3 since today is updated once a day.
+  - BigQuery: yesterday's data is updated once a day from 6pm to 8pm (UTC) data of day -3 since today is updated once a day from 6pm to 6:30pm.
+  - Appsflyer: data of the last 3 days is updated once a day at 6pm (UTC).
+  - IronSource Mediation: data of yesterday and day -3 since today are updated once a day at 3pm (UTC).
