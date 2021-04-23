@@ -12,7 +12,7 @@ All the powerfull metrics above can breakdown at Country, Campaign, Ad Group, Ad
 
 ## Dimensions Mapping
 
-| Data Source / Dimension | OS Version | Country | Campaign | Ad Group      | Ad Type | Ad            | Source App Id                    | Keyword              |
+| Dimension / Data Source | OS Version | Country | Campaign | Ad Group      | Ad Type | Ad            | Source App Id                    | Keyword              |
 |-------------------------|------------|---------|----------|---------------|---------|---------------|----------------------------------|----------------------|
 | Google Ads              |            | Country | Campaign | Ad Group      |         | Ad            | Group Placement                  |                      |
 | Facebook Ads            |            | Country | Campaign | Ad Set        |         | Ad            |                                  |                      |
