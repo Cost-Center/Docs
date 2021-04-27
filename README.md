@@ -71,6 +71,7 @@ Due to to the way data is organised at some data sources, the report is having t
 ## Data import
 - We use UTC timezone where possible, otherwise we use the timezone that data source provide.
 - Only data from connectors / customers linked to an app is updated regularly.
+- [Facebook has stopped sharing viewthrough installs since April 22, 2020](https://support.appsflyer.com/hc/en-us/articles/360007512817-Facebook-AMM-terms-from-April-22-2020). Therefore, data that Cost Center imports from Appsflyer does not have viewthrough users.
 - Data update interval:
   - Apple Search Ads: data of the last 3 days is updated every 2 hours.
   - Google Ads: yesterday's data is updated every 2 hours, data of day -3 since today is updated once a day.
