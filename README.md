@@ -82,4 +82,4 @@ Due to to the way data is organised at some data sources, the report is having t
   - IronSource Mediation: data of yesterday and day -3 since today are updated once a day at 3pm (UTC).
 
 ## Data freshness in Apps page
-- App's summarised data is updated hourly + Ad Networks data above is updated every 2 hours --> Summarised data can be delayed up to 3 hours in compare with Ad Networks' dashboard.
+- App's summarised data is updated hourly + Ad Networks data is updated every 2 hours --> Summarised data can be delayed up to 3 hours in compare with Ad Networks' dashboard.
