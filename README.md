@@ -1,4 +1,4 @@
-# Cost Center Documentation
+# Documentation
 
 ## Our Goal
 
@@ -80,3 +80,6 @@ Due to to the way data is organised at some data sources, the report is having t
   - BigQuery: yesterday's data is updated once a day from 6pm to 8pm (UTC) data of day -3 since today is updated once a day from 6pm to 6:30pm.
   - Appsflyer: data of the last 3 days is updated once a day at 6pm (UTC).
   - IronSource Mediation: data of yesterday and day -3 since today are updated once a day at 3pm (UTC).
+
+## Data freshness in Apps page
+- App's summarised data is updated hourly + Ad Networks data above is updated every 2 hours --> Summarised data can be delayed up to 3 hours in compare with Ad Networks' dashboard.
