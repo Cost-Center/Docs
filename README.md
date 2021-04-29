@@ -47,7 +47,7 @@ All the powerfull metrics above can be broken down at Country, Campaign, Ad Grou
 - eCPC (effective cost per click) = cost / clicks
 - eCPI (effective cost per install) = cost / installs
 - Att-eCPI (eCPI fromn attribution services)= costs / att-installs
-- LTV: (average) lifetime value of a user, calculated by IAP LTV + Ad LTV
+- LTV: (average) lifetime value of a user, calculated by IAP LTV + Ad LTV (= revenue / att-installs)
 - Ad ROAS: returns on ad spend excluding IAP revenue
 - ROAS: returns on ad spend including IAP and Ad revenue
 
