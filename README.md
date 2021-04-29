@@ -67,6 +67,7 @@ Due to to the way data is organised at some data sources, the report is having t
 - For Google Ads: 
   - Source App Id, Ad, Ad Type dimension can't be selected with Country dimension
   - Source App Id dimension can't be selected with Ad and Ad Type dimension.
+- Att-cost: cost from attribution service: only available for Unity Ads and Applovin
 
 ## Data import
 - We use UTC timezone where possible, otherwise we use the timezone that data source provide.
