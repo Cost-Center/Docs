@@ -18,6 +18,7 @@ All the powerfull metrics above can be broken down at Country, Campaign, Ad Grou
 | Facebook Ads            | Country | Campaign | Ad Set        | Ad            |                                  |                      |            |         |
 | Unity Ads               | Country | Campaign | Creative Pack | Creative Pack | Source App Id                    |                      | OS Version | Ad Type |
 | Apple Search Ads        | Country | Campaign | Ad Group      | Creative Set  | Search Term + Search Term Source | Keyword + Match Type |            |         |
+| Applovin.               | Country | Campaign |               | Ad            | App Id External                  |                      |            | Ad Type |
 
 ## Metrics
 ### From Ad Networks
