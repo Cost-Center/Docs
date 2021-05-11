@@ -87,4 +87,4 @@ Due to to the way data is organised at some data sources, the report is having t
 - App's summarised data is updated hourly + Ad Networks data is updated every 2 hours --> Summarised data can be delayed up to 3 hours in compare with Ad Networks' dashboard.
 
 ## Best practices
-- Don't change campaign's / ad group's / ad's name unless you really need to do that. Some attribution services keep track of those info using name (not id), so that when the name's changed, it will lose the historical tracking.
+- Don't change campaign's / ad group's / ad's name unless you really need to do that. Some attribution services are tracking using those name (not id). So when the name's changed, it will lose the historical tracking.
