@@ -65,7 +65,7 @@ Users attributed using Analytics Service is reportable at campaign level.
 
 ## Report limitation
 Due to to the way data is organised at some data sources, the report is having these limitations:
-- For Apple Search Ads: Ad dimension can't be selected with either Source App Id or Keyword dimension.
+- For Apple Search Ads: Ad dimension can't be selected with either Source App Id / Keyword / Ad Group dimension.
 - For Google Ads: 
   - Source App Id, Ad, Ad Type dimension can't be selected with Country dimension
   - Source App Id dimension can't be selected with Ad and Ad Type dimension.
