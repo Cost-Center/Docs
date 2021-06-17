@@ -89,3 +89,4 @@ Due to to the way data is organised at some data sources, the report is having t
 
 ## Best practices
 - Don't change campaign's / ad group's / ad's name unless you really need to do that. Some attribution services are tracking using those name (not id). So when the name's changed, it will lose the historical tracking.
+- All timezone settings in Ad Networks, Analytics Services, Attribution Services and Mediation Services should be UTC to avoid data mismatch.
