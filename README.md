@@ -20,6 +20,7 @@ All the powerfull metrics above can be broken down at Country, Campaign, Ad Grou
 | Apple Search Ads        | Country | Campaign | Ad Group      | Creative Set  | Search Term + Search Term Source | Keyword + Match Type |            |         |
 | Applovin                | Country | Campaign |               | Ad            | App Id External                  |                      |            | Ad Type |
 | IronSource Ads          | Country | Campaign |               | Creative      | Application Id                   |                      |            | Ad Type |
+| Vungle                  | Country | Campaign |               | Creative      | Site Id                          |                      |            | Ad Type |
 
 ## Metrics
 ### From Ad Networks
