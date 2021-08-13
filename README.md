@@ -2,7 +2,7 @@
 
 ## Our Goal
 
-Cost Center's goal is to collect raw data from your Ad Networks, Attribution Services, Analytics Services, Monetization Services and combine them into one report. In this report, Cost Center will provide powerfull metrics that can give you valuable information for decision making, such as:
+Cost Center's goal is to collect raw data from your Ad Networks, Attribution Services, Analytics Services, Monetization Services and combine them into comprehensive reports. These reports will have powerfull metrics which give you valuable information for decision making:
 * LTV Day x: Lifetime value at a day LTV D1, LTV D3, LTV D7, LTV D14, LTV 30, LTV 60
 * ROAS Day x: Return on ad spend at a day ROAS D1, ROAS D3, ROAS D7, ROAS D14, ROAS D30, ROAS D60
 * RR Day x: Retention at a day RR D1, RR D3, RR D7, RR D14, RR D30, RR D60
@@ -41,6 +41,10 @@ All the powerfull metrics above can be broken down at Country, Campaign, Ad Grou
 
 ### From Mediation Services (IronSource Mediation)
 - Ad LTV: (average) Ad revenue from a user calculated from the day they install the app (day 0) until day x.
+- Acc. Ad Revenue: accumulated ad revenue so far
+- Acc. IAP Revenue: accumulated IAP revenue so far
+- M-impressions: number of ad impressions in monitisation side
+- M-eCPM: revenue per thousand impressions in monitisation side
 
 ### Derived metrics
 - CTR (clickthrough rate) = clicks / impressions
