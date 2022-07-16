@@ -21,6 +21,7 @@ All the powerfull metrics above can be broken down at Country, Campaign, Ad Grou
 | Applovin                | Country | Campaign |               | Ad            | App Id External                  |                      |            | Ad Type |
 | IronSource Ads          | Country | Campaign |               | Creative      | Application Id                   |                      |            | Ad Type |
 | Vungle                  | Country | Campaign |               | Creative      | Site Id                          |                      |            | Ad Type |
+| Mintegral                  | Country | Campaign |               | Creative      | Sub Id                          |                      |            | Ad Type |
 
 ## Metrics
 ### From Ad Networks
